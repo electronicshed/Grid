@@ -1,4 +1,3 @@
-
 # Layout using grid
 
 * Allows  the reuse of templates without dictating the layout.
