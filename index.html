@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Grid Comparison</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+<style>
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat( 4, auto);
+    grid-column-gap: 30px;
+    margin: 15px;
+}
+
+/*
+@media only screen and (max-width: 1000px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        grid-column-gap: 30px;
+    }
+
+}
+*/
+
+@media only screen and (max-width: 768px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        //grid-template-columns: auto auto auto;
+        grid-column-gap: 30px;
+        //grid-template-rows: 1fr 1fr;
+        //grid-template-areas: "first sec sec ." ". . . ." ". . . .";
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+    }
+}
+
+.card {
+    margin: 0 0 30px 0;
+}
+
+</style>
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="grid-container">
+                <div class="card">
+                      <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+
+                      <div class="card-body">
+                          <h5 class="card-title">Grid</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p><a class="btn" href="#">View details »</a></p>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Grid</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p><a class="btn" href="#">View details »</a></p>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Grid</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p><a class="btn" href="#">View details »</a></p>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Grid</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p><a class="btn" href="#">View details »</a></p>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+    </div>
+
+
+    <div class="container-fluid">
+    	<div class="row">
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p><a class="btn" href="#">View details »</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p><a class="btn" href="#">View details »</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p><a class="btn" href="#">View details »</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p><a class="btn" href="#">View details »</a></p>
+                    </div>
+                </div>
+            </div>
+
+    	</div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
